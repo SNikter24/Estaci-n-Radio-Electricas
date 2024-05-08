@@ -1,0 +1,12 @@
+/* Estilos base del div */
+#product-card {
+    transition: transform 0.3s ease;
+  }
+  
+  /* Estilos al pasar el mouse por encima */
+  #product-card:hover {
+    z-index: 999;
+    transform: scale(2.9);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  }
+  
